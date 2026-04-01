@@ -1,93 +1,19 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #000;
-  color: #fff;
-  line-height: 1.6;
+.products{
+  display:flex;
+  gap:30px;
+  justify-content:center;
+  margin-top:40px;
+  flex-wrap:wrap;
 }
 
-.hero {
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8));
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
+.card{
+  width:250px;
+  text-align:center;
+  color:white;
 }
 
-h1 {
-  color: #d4af37;
-  font-size: 4rem;
-  margin-bottom: 10px;
-}
-
-.tagline {
-  font-size: 1.5rem;
-  color: #d4af37;
-}
-
-.intro {
-  max-width: 600px;
-  margin: 20px auto;
-}
-
-.buttons {
-  margin-top: 30px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 12px 24px;
-  margin: 10px;
-  background: #d4af37;
-  color: #000;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-}
-
-.btn-outline {
-  background: transparent;
-  border: 2px solid #d4af37;
-  color: #d4af37;
-}
-
-section {
-  padding: 60px 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-h2 {
-  color: #d4af37;
-  margin-bottom: 20px;
-}
-
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-}
-
-.card {
-  border: 1px solid #d4af37;
-  padding: 20px;
-  border-radius: 10px;
-  background: #111;
-}
-
-.small {
-  color: #bbb;
-}
-
-ul li {
-  margin-bottom: 10px;
-}
-
-footer {
-  text-align: center;
-  padding: 30px;
-  border-top: 1px solid #333;
-  color: #888;
+.card img{
+  width:100%;
+  border-radius:12px;
+  border:2px solid gold;
 }
