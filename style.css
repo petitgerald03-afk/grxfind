@@ -1,10 +1,24 @@
-<img src="lounejpg. alt="LOUNE" width="220">
-<img src="loune-storyjpg%20(2).jpeg" alt="LOUNE" width="220">
+<link rel="stylesheet" href="style.css">
 
-<img src="gson.jpeg" alt="GSON" width="220">
+<div>
+  <img src="loune.jpg" alt="LOUNE" width="300">
+  <img src="loune-story.jpg" alt="LOUNE" width="300">
+  <h3>LOUNE</h3>
+  <a href="mailto:info@grxfind.com?subject=I want to buy LOUNE">Buy Now</a>
+</div>
 
-<img src="peace%20up%20jpg.jpeg" alt="PEACE UP" width="220">
-<img src="peaceup-storyjpeg. alt="PEACE UP" width="220">
+<div>
+  <img src="gson.jpg" alt="GSON" width="300">
+  <h3>GSON</h3>
+  <a href="mailto:info@grxfind.com?subject=I want to buy GSON">Buy Now</a>
+</div>
+
+<div>
+  <img src="peaceup.jpg" alt="PEACE UP" width="300">
+  <img src="peaceup-story.jpg" alt="PEACE UP" width="300">
+  <h3>PEACE UP</h3>
+  <a href="mailto:info@grxfind.com?subject=I want to buy PEACE UP">Buy Now</a>
+</div>
 
 .product-card{
   width: 320px;
