@@ -1,3 +1,37 @@
+.product-card{
+  width: 320px;
+  background: #111;
+  border: 1px solid gold;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.product-card img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.extra-photo{
+  margin-top: 20px;
+}
+
+h3{
+  color: gold;
+  margin-top: 15px;
+}
+
+a{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: gold;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
 body {
     background: #050505;
     color: #d4af37;
