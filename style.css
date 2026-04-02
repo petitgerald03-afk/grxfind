@@ -1,3 +1,11 @@
+.product-card a img{
+  cursor:pointer;
+}
+
+.peace-photo{
+  object-position:center top;
+}
+
 body{
   background:black;
   text-align:center;
