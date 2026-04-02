@@ -1,4 +1,19 @@
-product-card img{
+body{
+  background:black;
+  text-align:center;
+  font-family:Georgia, serif;
+}
+
+.product-card{
+  width:320px;
+  background:#111;
+  border:1px solid gold;
+  border-radius:15px;
+  padding:20px;
+  margin:20px auto;
+}
+
+.product-card img{
   width:100%;
   height:320px;
   object-fit:cover;
@@ -6,130 +21,22 @@ product-card img{
   display:block;
 }
 
-<div class="product-card">
-  <img src="lounejpeg" alt="LOUNE">
-  <img src="loune-storyjpeg" alt="LOUNE" class="extra-photo">
-  <h3>LOUNE</h3>
-  <a href="mailto:info@grxfind.com?subject=I want to buy LOUNE">Buy Now</a>
-</div>
-
-<div class="product-card">
-  <img src="gsonjpeg" alt="GSON">
-  <h3>GSON</h3>
-  <a href="mailto:info@grxfind.com?subject=I want to buy GSON">Buy Now</a>
-</div>
-
-<div class="product-card">
-  <img src="peaceupjpeg" alt="PEACE UP">
-  <img src="peaceup-storyjpeg" alt="PEACE UP" class="extra-photo">
-  <h3>PEACE UP</h3>
-  <a href="mailto:info@grxfind.com?subject=I want to buy PEACE UP">Buy Now</a>
-</div>
-
-
-.product-card{
-  width: 320px;
-  background: #111;
-  border: 1px solid gold;
-  border-radius: 15px;
-  padding: 20px;
-  margin: 20px;
-  text-align: center;
-}
-
-.product-card img{
-  width: 100%;
-  border-radius: 10px;
-}
-
 .extra-photo{
-  margin-top: 20px;
+  margin-top:15px;
 }
 
 h3{
-  color: gold;
-  margin-top: 15px;
+  color:gold;
+  font-size:38px;
 }
 
 a{
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background: gold;
-  color: black;
-  text-decoration: none;
-  border-radius: 8px;
-}
-
-body {
-    background: #050505;
-    color: #d4af37;
-    font-family: Georgia, serif;
-    margin: 0;
-    padding: 40px;
-}
-
-div {
-    display: inline-block;
-    width: 320px;
-    margin: 20px;
-    text-align: center;
-    background: #111;
-    border: 1px solid #b88a44;
-    border-radius: 24px;
-    padding: 20px;
-}
-
-img {
-    width: 100%;
-    max-width: 280px;
-    border-radius: 20px;
-}
-
-h3 {
-    color: #d4af37;
-    font-size: 32px;
-}
-
-a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #d4af37;
-    border: 1px solid #d4af37;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 12px;
-}
-
-.logo {
-  display: block;
-  width: 500px;
-  max-width: 90%;
-  margin: 30px auto 50px auto;
-}body {
-  background: black;
-  color: gold;
-  font-family: Georgia, serif;
-  text-align: center;
-}
-
-div {
-  display: inline-block;
-  width: 300px;
-  margin: 20px;
-  background: #111;
-  border: 1px solid gold;
-  border-radius: 15px;
-  padding: 20px;
-}
-
-a {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 12px 25px;
-  background: gold;
-  color: black;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
+  display:inline-block;
+  margin-top:15px;
+  padding:12px 25px;
+  background:gold;
+  color:black;
+  text-decoration:none;
+  border-radius:10px;
+  font-weight:bold;
 }
