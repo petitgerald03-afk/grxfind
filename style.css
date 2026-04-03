@@ -219,7 +219,6 @@ body{
   .contact-section p{
     font-size:18px;
   }
-
 .product-page{
   display:flex !important;
   gap:40px !important;
@@ -236,4 +235,13 @@ body{
 
 .product-right{
   padding-top:20px !important;
+}
+
+.main-product-image{
+  width:100% !important;
+  max-width:520px !important;
+  height:auto !important;
+  display:block !important;
+  border:2px solid gold !important;
+  border-radius:20px !important;
 }
