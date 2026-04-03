@@ -1,14 +1,8 @@
-<script>
-function changeImage(img){
-  document.getElementById("main-image").src = img.src;
+<div class="product-left">
+  <img id="main-image" src="lounejpeg.jpeg" class="main-product-image">
 
-  document.querySelectorAll(".thumb").forEach(item => {
-    item.classList.remove("active");
-  });
-
-  img.classList.add("active");
-}
-</script>
-
-</body>
-</html>
+  <div class="thumbnail-row">
+    <img src="lounejpeg.jpeg" class="thumb active" onclick="changeImage(this)">
+    <img src="loune-storyjpeg.jpeg" class="thumb" onclick="changeImage(this)">
+  </div>
+</div>
