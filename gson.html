@@ -1,18 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>GSON - GRXFIND</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body style="background:black; color:white; text-align:center; padding-top:80px;">
+</div>
 
-  <h1 style="color:gold;">GSON</h1>
+<script>
+function changeImage(img){
+  document.getElementById("main-image").src = img.src;
 
-  <img src="gsonjpeg.jpeg" style="width:300px; border-radius:20px;">
+  document.querySelectorAll(".thumb").forEach(item=>{
+    item.classList.remove("active");
+  });
 
-  <p style="font-size:22px; margin-top:20px;">
-    A fresh and powerful scent with a modern, bold character.
-  </p>
+  img.classList.add("active");
+}
+</script>
 
 </body>
 </html>
