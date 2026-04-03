@@ -1,12 +1,10 @@
-</div>
-
 <script>
 function changeImage(img){
   document.getElementById("main-image").src = img.src;
 
-  document.querySelectorAll(".thumb").forEach(item=>{
+  document.querySelectorAll(".thumb").forEach(item){
     item.classList.remove("active");
-  });
+  }
 
   img.classList.add("active");
 }
