@@ -243,30 +243,11 @@ footer{
   font-size:14px;
 }
 
-.product-page{
-  display:flex;
-  gap:40px;
-  padding:60px 40px;
-  align-items:flex-start;
-  background:#050505;
-  color:white;
-  flex-wrap:wrap;
-}
-
-.product-left,
-.product-right{
-  flex:1;
-  min-width:300px;
-}
-
-.main-product-image{
-  width:100%;
-  max-width:420px;
-  height:auto;
-  border:2px solid #d4af37;
-  border-radius:18px;
-  display:block;
-}
+<div class="product-left">
+  <img src="lounejpeg.jpeg" class="main-product-image">
+  <img src="lounestoryjpeg.jpeg" class="main-product-image">
+  <img src="loune3.jpeg" class="main-product-image">
+</div>
 
 .thumbnail-row{
   display:flex;
