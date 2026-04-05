@@ -287,11 +287,10 @@ footer{
   font-weight:bold;
 }
 
-  .main-product-image{
-  width:300px !important;
-  max-width:300px !important;
+ .main-product-image{
+  width:220px !important;
   height:auto !important;
   border:2px solid #d4af37;
   border-radius:15px;
-  margin-right:20px;
+  margin:10px;
 }
