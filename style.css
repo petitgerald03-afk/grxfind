@@ -221,3 +221,24 @@ body{
 body{
   zoom:1.25;
 }
+
+  .product-card{
+  transition:0.3s ease;
+}
+
+.product-card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 0 20px rgba(212,175,55,0.4);
+}
+
+.contact-section{
+  margin-top:60px;
+  padding-bottom:40px;
+}
+
+footer{
+  margin-top:40px;
+  color:#aaa;
+  text-align:center;
+  font-size:14px;
+}
