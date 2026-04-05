@@ -219,3 +219,7 @@ body{
   .contact-section p{
     font-size:18px;
   }
+
+body{
+  zoom:1.15;
+}
