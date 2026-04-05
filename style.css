@@ -315,12 +315,3 @@ footer{
   width:70 px !important;
   height:70 px !important;
 }
-
-.main-product-image{
-  width:300px !important;
-  max-width:300px !important;
-  height:auto !important;
-  border:2px solid #d4af37;
-  border-radius:15px;
-  margin-right:20px;
-}
