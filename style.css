@@ -276,17 +276,20 @@ footer{
   
 .loune-gallery{
   display:flex;
-  gap:15px;
+  gap:10px;
+  justify-content:center;
   margin-top:20px;
-  flex-wrap:wrap;
 }
 
-.gallery-img{
-  width:100px !important;
-  height:100px !important;
-  object-fit:cover;
+.loune-gallery img{
+  width:80px !important;
+  height:80px !important;
+  max-width:80px !important;
+  max-height:80px !important;
+  object-fit:cover !important;
   border:2px solid gold;
-  border-radius:12px;
+  border-radius:10px;
+  display:block;
 }
 
 .loune-gallery img:hover{
