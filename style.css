@@ -300,7 +300,8 @@ footer{
   align-items:flex-start;
 }
 
- .buy-btn:hover{
-  background:white !important;
-  color:black !important;
-} 
+a.buy-btn:hover,
+button.buy-btn:hover{
+  background: white !important;
+  color: black !important;
+}
