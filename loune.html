@@ -28,10 +28,16 @@ Buy Now</a>
 </div>
 
 <div class="loune-gallery">
-  <img src="loune-model.jpg" class="gallery-img" alt="LOUNE perfume with woman">
-  <img src="loune-hand.jpg" class="gallery-img" alt="LOUNE perfume in hand">
-  <img src="loune-bedroom.jpg" class="gallery-img" alt="LOUNE perfume in bedroom">
+  <img src="loune-model.jpg" class="gallery-img" onclick="changeImage(this.src)">
+  <img src="loune-hand.jpg" class="gallery-img" onclick="changeImage(this.src)">
+  <img src="loune-bedroom.jpg" class="gallery-img" onclick="changeImage(this.src)">
 </div>
+
+<script>
+function changeImage(newImage){
+  document.querySelector('.main-product-image').src = newImage;
+}
+</script>
 
 <style>
 .loune-gallery{
