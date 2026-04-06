@@ -146,12 +146,10 @@ body{
   display:inline-block;
   transition:0.3s;
 }
-
 .buy-btn:hover{
   background:#fff;
   color:#000;
-  transform:scale(1.05);
-}
+}}
 
 .about-section,
 .contact-section{
@@ -300,3 +298,4 @@ footer{
   flex-direction:column;
   align-items:flex-start;
 }
+
